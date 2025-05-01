@@ -1,0 +1,29 @@
+{
+  "name": "waretrack",
+  "version": "1.0.0",
+  "description": "This is a Nodejs project for Inventory management system",
+  "main": "app.js",
+  "scripts": {
+    "dev": "nodemon src/app.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/dtdevansh/wareTrack.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/dtdevansh/wareTrack/issues"
+  },
+  "homepage": "https://github.com/dtdevansh/wareTrack#readme",
+  "dependencies": {
+    "bcrypt": "^5.1.1",
+    "cookie-parser": "^1.4.7",
+    "dotenv": "^16.4.7",
+    "express": "^4.21.2",
+    "json-parser": "^3.1.2",
+    "jsonwebtoken": "^9.0.2",
+    "mongoose": "^8.12.1",
+    "validator": "^13.12.0"
+  }
+}
